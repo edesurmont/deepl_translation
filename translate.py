@@ -132,6 +132,10 @@ def main():
 
     source_lang = find_source()
     target_lang = find_target()
+    if source_lang == "en":
+        source_lang = "en-us"
+    if target_lang == "en":
+        target_lang = "en-us"
     cols_to_translate = find_cols_to_translate()
 
     # to verify everything was done correctly
