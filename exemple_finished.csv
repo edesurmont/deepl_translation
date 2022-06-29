@@ -1,0 +1,4 @@
+ressource_id,source_name,target_name,source_description,target_description,source_locale,target_locale
+1,Un voyage,A journey,C'est fantastique !,This is fantastic!,fr,en-us
+2,Un bateau,A boat,Un moyen de transport maritime,A means of maritime transport,fr,en-us
+3,Une viture,A car,Très pratique,Very practical,fr,en-us
