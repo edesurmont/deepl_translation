@@ -7,7 +7,7 @@ import numpy
 # file_to_translate = sys.argv[0]
 
 # The file containing the data to translate
-file_to_translate = "train_translations.csv"
+file_to_translate = "exemple.csv"
 
 # the file where the translated data will be written
 # by default : 
