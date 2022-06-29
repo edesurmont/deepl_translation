@@ -22,7 +22,7 @@ Replace the file_to_translate by your file.
 
 ## Exemple document
 
- target_name | source_description             | target_description_ | source_locale | target_locale |
+| ressource_id | source_name | target_name  | source_description    | target_description_ | source_locale | target_locale |
 | ------------ | ----------- | ----------- | ------------------------------ | ------------------- | ------------- | ------------- |
 | 1            | Un voyage   |             | C'est fantastique !            |                     | fr            | en-us         |
 | 2            | Un bateau   |             | Un moyen de transport maritime |                     | fr            | en-us         |
@@ -30,7 +30,7 @@ Replace the file_to_translate by your file.
 
 ## Exemple output
 
- target_name | source_description             | target_description_ | source_locale | target_locale |
+| ressource_id | source_name  | target_name | source_description             | target_description_ | source_locale | target_locale |
 | ------------ | ----------- | ----------- | ------------------------------ | ------------------- | ------------- | ------------- |
 | 1            | Un voyage   |  A journey  | C'est fantastique !            | This is fantastic!  | fr            | en-us         |
 | 2            | Un bateau   |  A boat     | Un moyen de transport maritime | A means of maritime transport | fr            | en-us         |
