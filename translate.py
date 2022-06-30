@@ -11,8 +11,8 @@ file_to_translate = "exemple.csv"
 
 # the file where the translated data will be written
 # by default : 
-# if the file_to_translate is 'hello.csv' it will be : 'hello_finished.csv'
-file_translated = file_to_translate.split(".")[0] + "_finished.csv"
+# if the file_to_translate is 'exemple.csv' it will be : 'exemple_translated.csv'
+file_translated = '.'.join(x for x in file_to_translate.split(".")[:-1]) + "_translated.csv"
 
 # an array storing all the data to translate
 data = []
