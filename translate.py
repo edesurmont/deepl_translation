@@ -147,6 +147,8 @@ def main():
     translate_data(cols_to_translate, source_lang, target_lang)
 
     write_data()
+    
+    print("done")
 
 # if this file is run, we execute main()
 if __name__ == "__main__":
