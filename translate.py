@@ -132,6 +132,7 @@ def main():
 
     source_lang = find_source()
     target_lang = find_target()
+    # en is deprecated, we need to use "en-us" or "en-gb" instead
     if source_lang == "en":
         source_lang = "en-us"
     if target_lang == "en":
